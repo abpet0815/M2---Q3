@@ -29,8 +29,6 @@ export default class GameScene extends Phaser.Scene {
         this.load.audio("JumpHitEnemysfx", "/assets/audio/JumpHitEnemySFX.mp3");
         this.load.audio("JumpHitBluesfx", "/assets/audio/JumpHitBlueSFX.mp3");
         this.load.audio("FriendHitEnemysfx", "/assets/audio/FriendHitEnemySFX.mp3");
-        this.load.audio("PlayerBumpFriendsfx", "/assets/audio/PlayerBumpFriendSFX.mp3");
-        this.load.audio("falltowater", "/assets/audio/FallToWaterSFX.mp3");
     }
 
     
